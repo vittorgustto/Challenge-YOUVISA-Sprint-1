@@ -91,31 +91,8 @@ Principais funcionalidades:
 
 A arquitetura proposta segue um modelo modular em nuvem, com integração entre os principais componentes do sistema:
 
-```
-graph LR
-  U[Usuário<br>(WhatsApp / Telegram / Web / Email)]
-  A[Adaptadores de Canal]
-  G[API Gateway / Roteador]
-  N[NLP Engine<br>(Rasa/Dialogflow)]
-  V[Serviço de Visão Computacional<br>(OCR / Validação)]
-  R[RPA / Automação de Processos]
-  D[Banco de Dados<br>(MongoDB / DynamoDB)]
-  S[Armazenamento em Nuvem<br>(S3 / Blob Storage)]
-  H[Atendimento Humano<br>(Painel Web)]
-  B[Analytics / Relatórios]
-  Sec[Segurança e IAM]
+![Diagrama](assets/Diagrama.png)
 
-  U --> A --> G
-  G --> N
-  G --> V
-  G --> R
-  N --> D
-  V --> D
-  R --> D
-  D --> B
-  G --> H
-  Sec -.-> G
-```
 
 # 🧠 Fluxo Resumido:
 
