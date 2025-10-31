@@ -29,7 +29,9 @@
 **Plataforma Inteligente de Atendimento Multicanal**
 
 Entrega: Definição do escopo e arquitetura inicial da solução
+
 Instituição: FIAP
+
 Empresa Parceira: YOUVISA
 
 ---
